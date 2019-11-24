@@ -1,8 +1,7 @@
 class CollatzClass:
     
-    def __init__(self, v: int=0, i: int=1) -> None:
+    def __init__(self, v: int=0) -> None:
         self.val = v
-        self.incr = i
         print('')
         print('')
         print('===========================')
